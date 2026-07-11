@@ -1,0 +1,26 @@
+modLoader="kotlinforforge"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="decorblock"
+version="${file.jarVersion}"
+displayName="Decor Block Mod"
+authors="Tmage"
+description='''
+Мод на красивые декоративные блоки, написанный на Kotlin!
+'''
+
+[[dependencies.decorblock]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.decorblock]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"

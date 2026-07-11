@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_quartzite_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_quartzite"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_quartzite_slab_top"
+    }
+  }
+}

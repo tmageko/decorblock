@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/veined_deep_copper_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/veined_deep_copper"
+    },
+    "type=top": {
+      "model": "decorblock:block/veined_deep_copper_slab_top"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "decorblock:block/tiles/tiles_checker_deep_indigo_2px"
+  }
+}

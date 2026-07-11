@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_schist_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_schist"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_schist_slab_top"
+    }
+  }
+}

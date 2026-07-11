@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_light_copper_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_light_copper"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_light_copper_slab_top"
+    }
+  }
+}
