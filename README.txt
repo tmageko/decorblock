@@ -1,46 +1,60 @@
+# DecorBlock
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+Minecraft Forge мод на **Kotlin**, добавляющий **2100+ декоративных блоков** для строительства: доски, паркет, черепицу, бетон, металл, камень, мрамор, терраццо, ковры, шерсть, стекло, неон, орнаменты и полублоки.
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+Никаких новых механик, крафтов с сюрпризами или мобов — только огромная палитра для строителей. Все блоки лежат в творческом инвентаре, ищутся по названию материала.
 
-Setup Process:
-==============================
+## Что внутри
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+| Категория | Количество |
+|---|---|
+| 🪵 Доски (45 пород дерева × 8 вариантов) | 360 |
+| 🧩 Паркет | 45 |
+| 🏠 Черепица | 65 |
+| 🧶 Шерсть | 116 |
+| 🧵 Ковры | 150 |
+| ⚙️ Металлические панели (25 типов × 6 вариантов) | 150 |
+| 🧱 Бетон (44 цвета × 6 вариантов) | 264 |
+| 🪨 Камень: булыжник / кирпич / полировка (68 материалов) | 204 |
+| 🎨 Крашеный кирпич | 15 |
+| ▦ Плитка и мозаика (51 цвет) | 204 |
+| ✨ Орнаменты (крест, ромб, звезда, круг) | 120 |
+| 🪟 Стекло | 53 |
+| 🌀 Мрамор с прожилками | 40 |
+| ⛰️ Сыпучие/гравийные | 30 |
+| 🌈 Градиенты | 14 |
+| ⬡ Гекс-плитка | 14 |
+| 💎 Мрамор двухцветный | 12 |
+| 💡 Неон (светится!) | 12 |
+| 〰️ Полосы | 14 |
+| 🔲 Терраццо | 14 |
+| ▤ Полублоки | 211 |
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
+Все текстуры (1896 шт.) сгенерированы процедурно специально для этого мода — не заимствованы из других модов/ресурспаков.
 
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
+## Требования
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
+- Minecraft **1.20.1**
+- **Forge** 47+
+- **Kotlin for Forge**
 
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+## Установка
 
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+Скачать `.jar` со страницы [Releases](../../releases) или с CurseForge, закинуть в папку `mods`.
+
+## Сборка из исходников
+
+```
+git clone https://github.com/tmageko/decorblock.git
+cd decorblock
+./gradlew build
+```
+
+Готовый джарник появится в `build/libs/`.
+
+Проект использует стандартный Forge MDK — подробности по настройке среды разработки (Eclipse/IntelliJ) см. в [docs.minecraftforge.net](https://docs.minecraftforge.net/en/1.20.1/gettingstarted/).
+
+## Лицензия
+
+Код мода распространяется под лицензией **MIT** (см. [LICENSE.txt](LICENSE.txt)).
+Minecraft Forge, включённый в проект как зависимость, распространяется под **LGPL 2.1** — см. [CREDITS.txt](CREDITS.txt).
