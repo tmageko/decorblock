@@ -1,11 +1,12 @@
 package com.tmage.decorblock
 
 import net.minecraft.world.item.CreativeModeTabs
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent
-import net.minecraftforge.fml.common.Mod
+import net.neoforged.bus.api.IEventBus
+import net.neoforged.fml.common.Mod
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
-import thedarkcolour.kotlinforforge.forge.MOD_CONTEXT
+import thedarkcolour.kotlinforforge.neoforge.forge.MOD_BUS
 
 @Mod(DecorBlockMod.MOD_ID)
 class DecorBlockMod {
@@ -15,20 +16,18 @@ class DecorBlockMod {
     }
 
     init {
-        val modEventBus = MOD_CONTEXT.getKEventBus()
+        val modEventBus: IEventBus = MOD_BUS
 
         ModBlocks.register(modEventBus)
         modEventBus.addListener(ModDataGenerators::gatherData)
 
-        // Добавляем блоки в творческий инвентарь (вкладка Строительные блоки)
         modEventBus.addListener(this::addCreativeContents)
 
-        LOGGER.info("DecorBlockMod готов к запуску!")
+        LOGGER.info("DecorBlockMod готов к запуску на 26.2!")
     }
 
     private fun addCreativeContents(event: BuildCreativeModeTabContentsEvent) {
         if (event.tabKey == CreativeModeTabs.BUILDING_BLOCKS) {
-            // Добавляем абсолютно все наши предметы блоков в строительную вкладку
             ModBlocks.ITEM_REGISTRY.entries.forEach { itemObj ->
                 event.accept(itemObj.get())
             }

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "decorblock:block/terrazzo/terrazzo_yellow",
-    "side": "decorblock:block/terrazzo/terrazzo_yellow",
-    "top": "decorblock:block/terrazzo/terrazzo_yellow"
-  }
-}

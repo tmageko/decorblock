@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/veined/veined_dark_honey",
-    "side": "decorblock:block/veined/veined_dark_honey",
-    "top": "decorblock:block/veined/veined_dark_honey"
-  }
-}

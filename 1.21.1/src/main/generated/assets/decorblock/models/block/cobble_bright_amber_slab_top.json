@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "decorblock:block/stone/cobble_bright_amber",
-    "side": "decorblock:block/stone/cobble_bright_amber",
-    "top": "decorblock:block/stone/cobble_bright_amber"
-  }
-}

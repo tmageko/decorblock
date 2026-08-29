@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "decorblock:block/stone/cobble_dark_olive",
-    "side": "decorblock:block/stone/cobble_dark_olive",
-    "top": "decorblock:block/stone/cobble_dark_olive"
-  }
-}
