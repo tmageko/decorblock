@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/stone/cobble_schist",
-    "side": "decorblock:block/stone/cobble_schist",
-    "top": "decorblock:block/stone/cobble_schist"
-  }
-}

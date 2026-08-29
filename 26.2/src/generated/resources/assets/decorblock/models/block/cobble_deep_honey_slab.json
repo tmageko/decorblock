@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/cobble_deep_honey_slab",
-    "side": "decorblock:block/cobble_deep_honey_slab",
-    "top": "decorblock:block/cobble_deep_honey_slab"
-  }
-}

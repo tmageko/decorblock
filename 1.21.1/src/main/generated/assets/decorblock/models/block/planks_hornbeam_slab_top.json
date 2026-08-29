@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "decorblock:block/wood_planks/planks_hornbeam_1",
-    "side": "decorblock:block/wood_planks/planks_hornbeam_1",
-    "top": "decorblock:block/wood_planks/planks_hornbeam_1"
-  }
-}

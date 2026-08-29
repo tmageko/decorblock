@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/concrete_dark_emerald_slab",
-    "side": "decorblock:block/concrete_dark_emerald_slab",
-    "top": "decorblock:block/concrete_dark_emerald_slab"
-  }
-}

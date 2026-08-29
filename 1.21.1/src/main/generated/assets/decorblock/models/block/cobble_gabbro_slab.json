@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/stone/cobble_gabbro",
-    "side": "decorblock:block/stone/cobble_gabbro",
-    "top": "decorblock:block/stone/cobble_gabbro"
-  }
-}
