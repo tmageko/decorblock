@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/veined_muted_amber_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/veined_muted_amber"
+    },
+    "type=top": {
+      "model": "decorblock:block/veined_muted_amber_slab_top"
+    }
+  }
+}

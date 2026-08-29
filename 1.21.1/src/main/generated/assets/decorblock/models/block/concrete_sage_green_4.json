@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "decorblock:block/concrete/concrete_sage_green_4"
+  }
+}

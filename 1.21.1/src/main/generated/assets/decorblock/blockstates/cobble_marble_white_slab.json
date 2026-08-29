@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_marble_white_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_marble_white"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_marble_white_slab_top"
+    }
+  }
+}

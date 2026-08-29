@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/concrete_muted_green_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/concrete_muted_green_slab_double"
+    },
+    "type=top": {
+      "model": "decorblock:block/concrete_muted_green_slab_top"
+    }
+  }
+}

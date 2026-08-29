@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decorblock:block/terrazzo/terrazzo_sage",
+    "side": "decorblock:block/terrazzo/terrazzo_sage",
+    "top": "decorblock:block/terrazzo/terrazzo_sage"
+  }
+}

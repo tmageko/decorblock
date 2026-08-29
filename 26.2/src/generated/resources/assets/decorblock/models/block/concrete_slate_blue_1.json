@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "decorblock:block/concrete_slate_blue_1"
+  }
+}

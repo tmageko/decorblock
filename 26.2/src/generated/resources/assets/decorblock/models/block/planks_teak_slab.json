@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "decorblock:block/planks_teak_slab",
+    "side": "decorblock:block/planks_teak_slab",
+    "top": "decorblock:block/planks_teak_slab"
+  }
+}

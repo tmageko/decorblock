@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/concrete_dark_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/concrete_dark_1"
+    },
+    "type=top": {
+      "model": "decorblock:block/concrete_dark_slab_top"
+    }
+  }
+}

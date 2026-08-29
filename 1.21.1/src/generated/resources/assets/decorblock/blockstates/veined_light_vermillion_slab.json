@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/veined_light_vermillion_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/veined_light_vermillion"
+    },
+    "type=top": {
+      "model": "decorblock:block/veined_light_vermillion_slab_top"
+    }
+  }
+}

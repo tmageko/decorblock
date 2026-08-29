@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_pale_mustard_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_pale_mustard_slab_double"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_pale_mustard_slab_top"
+    }
+  }
+}

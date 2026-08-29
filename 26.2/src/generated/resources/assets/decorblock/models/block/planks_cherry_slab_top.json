@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decorblock:block/planks_cherry_slab",
+    "side": "decorblock:block/planks_cherry_slab",
+    "top": "decorblock:block/planks_cherry_slab"
+  }
+}

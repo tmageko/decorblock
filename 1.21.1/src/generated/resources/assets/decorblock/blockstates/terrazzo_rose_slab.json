@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/terrazzo_rose_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/terrazzo_rose"
+    },
+    "type=top": {
+      "model": "decorblock:block/terrazzo_rose_slab_top"
+    }
+  }
+}

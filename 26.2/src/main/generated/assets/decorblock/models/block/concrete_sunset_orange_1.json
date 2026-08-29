@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "decorblock:block/concrete/concrete_sunset_orange_1"
+  }
+}

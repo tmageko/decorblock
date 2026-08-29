@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "decorblock:block/concrete/concrete_dark_jade_1",
+    "side": "decorblock:block/concrete/concrete_dark_jade_1",
+    "top": "decorblock:block/concrete/concrete_dark_jade_1"
+  }
+}

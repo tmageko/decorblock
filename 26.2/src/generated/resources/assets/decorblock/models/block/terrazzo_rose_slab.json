@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "decorblock:block/terrazzo_rose_slab",
+    "side": "decorblock:block/terrazzo_rose_slab",
+    "top": "decorblock:block/terrazzo_rose_slab"
+  }
+}

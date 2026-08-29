@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/terrazzo_lavender_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/terrazzo_lavender"
+    },
+    "type=top": {
+      "model": "decorblock:block/terrazzo_lavender_slab_top"
+    }
+  }
+}

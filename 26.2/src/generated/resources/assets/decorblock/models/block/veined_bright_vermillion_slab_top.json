@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decorblock:block/veined_bright_vermillion_slab",
+    "side": "decorblock:block/veined_bright_vermillion_slab",
+    "top": "decorblock:block/veined_bright_vermillion_slab"
+  }
+}

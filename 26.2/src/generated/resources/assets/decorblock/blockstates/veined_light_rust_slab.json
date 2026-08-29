@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/veined_light_rust_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/veined_light_rust_slab_double"
+    },
+    "type=top": {
+      "model": "decorblock:block/veined_light_rust_slab_top"
+    }
+  }
+}

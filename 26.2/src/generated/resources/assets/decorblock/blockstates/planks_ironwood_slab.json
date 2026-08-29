@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/planks_ironwood_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/planks_ironwood_slab_double"
+    },
+    "type=top": {
+      "model": "decorblock:block/planks_ironwood_slab_top"
+    }
+  }
+}

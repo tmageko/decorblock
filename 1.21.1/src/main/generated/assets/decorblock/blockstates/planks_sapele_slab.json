@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/planks_sapele_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/planks_sapele_1"
+    },
+    "type=top": {
+      "model": "decorblock:block/planks_sapele_slab_top"
+    }
+  }
+}

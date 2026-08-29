@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/cobble_gypsum_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/cobble_gypsum"
+    },
+    "type=top": {
+      "model": "decorblock:block/cobble_gypsum_slab_top"
+    }
+  }
+}

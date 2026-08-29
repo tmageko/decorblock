@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/veined_dark_gold_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/veined_dark_gold"
+    },
+    "type=top": {
+      "model": "decorblock:block/veined_dark_gold_slab_top"
+    }
+  }
+}

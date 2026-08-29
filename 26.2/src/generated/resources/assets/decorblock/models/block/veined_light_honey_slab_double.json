@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "decorblock:block/veined_light_honey_slab"
+  }
+}

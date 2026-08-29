@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "decorblock:block/stone/cobble_dolomite",
+    "side": "decorblock:block/stone/cobble_dolomite",
+    "top": "decorblock:block/stone/cobble_dolomite"
+  }
+}

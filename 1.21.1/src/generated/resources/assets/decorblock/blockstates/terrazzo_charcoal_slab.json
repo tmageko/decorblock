@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "decorblock:block/terrazzo_charcoal_slab"
+    },
+    "type=double": {
+      "model": "decorblock:block/terrazzo_charcoal"
+    },
+    "type=top": {
+      "model": "decorblock:block/terrazzo_charcoal_slab_top"
+    }
+  }
+}

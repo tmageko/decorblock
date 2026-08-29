@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decorblock:block/cobble_bright_mustard_slab",
+    "side": "decorblock:block/cobble_bright_mustard_slab",
+    "top": "decorblock:block/cobble_bright_mustard_slab"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "decorblock:block/veined_dark_gold_slab",
+    "side": "decorblock:block/veined_dark_gold_slab",
+    "top": "decorblock:block/veined_dark_gold_slab"
+  }
+}
