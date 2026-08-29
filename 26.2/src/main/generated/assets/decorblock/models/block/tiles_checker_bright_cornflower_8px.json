@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "decorblock:block/tiles/tiles_checker_bright_cornflower_8px"
-  }
-}

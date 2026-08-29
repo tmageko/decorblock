@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/wood_planks/planks_mahogany_1",
-    "side": "decorblock:block/wood_planks/planks_mahogany_1",
-    "top": "decorblock:block/wood_planks/planks_mahogany_1"
-  }
-}

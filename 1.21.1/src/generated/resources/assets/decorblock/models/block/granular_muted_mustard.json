@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "decorblock:block/granular/granular_muted_mustard"
-  }
-}

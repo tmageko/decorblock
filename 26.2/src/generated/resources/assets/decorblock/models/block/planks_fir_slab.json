@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/planks_fir_slab",
-    "side": "decorblock:block/planks_fir_slab",
-    "top": "decorblock:block/planks_fir_slab"
-  }
-}

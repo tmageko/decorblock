@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "decorblock:block/stripes/stripes_purple_gold"
-  }
-}

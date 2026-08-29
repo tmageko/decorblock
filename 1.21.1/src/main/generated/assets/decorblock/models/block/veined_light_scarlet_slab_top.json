@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "decorblock:block/veined/veined_light_scarlet",
-    "side": "decorblock:block/veined/veined_light_scarlet",
-    "top": "decorblock:block/veined/veined_light_scarlet"
-  }
-}

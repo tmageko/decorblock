@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "decorblock:block/veined/veined_deep_rust",
-    "side": "decorblock:block/veined/veined_deep_rust",
-    "top": "decorblock:block/veined/veined_deep_rust"
-  }
-}
