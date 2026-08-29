@@ -34,8 +34,8 @@ Minecraft Forge мод на **Kotlin**, добавляющий **2100+ деко�
 
 ## Требования
 
-- Minecraft **1.20.1**
-- **Forge** 47+
+- Minecraft **1.21.1**
+- **NeoForge** 21+
 - **Kotlin for Forge**
 
 ## Установка
