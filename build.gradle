@@ -1,7 +1,7 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.144'
+    id 'net.neoforged.moddev' version '2.0.148'
     id 'idea'
 
     id 'org.jetbrains.kotlin.jvm' version '2.4.10'
@@ -83,7 +83,7 @@ configurations {
 }
 
 dependencies {
-    implementation 'thedarkcolour:kotlinforforge-neoforge:6.3.0'
+    implementation 'thedarkcolour:kotlinforforge-neoforge:6.4.0'
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

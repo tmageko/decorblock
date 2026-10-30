@@ -23,7 +23,7 @@ class DecorBlockMod {
 
         modEventBus.addListener(this::addCreativeContents)
 
-        LOGGER.info("DecorBlockMod готов к запуску на 26.2!")
+        LOGGER.info("DecorBlockMod готов к запуску на 26.3!")
     }
 
     private fun addCreativeContents(event: BuildCreativeModeTabContentsEvent) {
