@@ -5,7 +5,12 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.9.20'
 }
 
-version = '1.2.0'
+def buildVersion = '1.2.0'
+def gitCommit = System.getenv('GITHUB_SHA')
+if (gitCommit && System.getenv('GITHUB_REF_TYPE') != 'tag') {
+    buildVersion += "+${gitCommit.take(7)}"
+}
+version = buildVersion
 group = 'com.tmage.decorblock'
 archivesBaseName = 'decorblock'
 
