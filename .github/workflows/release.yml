@@ -1,7 +1,9 @@
-name: Draft & Publish Release
+name: Release & Nightly Builds (26.2)
 
 on:
   push:
+    branches:
+      - '26.2'
     tags:
       - 'v*'
 
@@ -31,10 +33,29 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Create GitHub Release
+      - name: Publish Official Release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: build/libs/*.jar
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Nightly Snapshot
+        if: github.ref == 'refs/heads/26.2'
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          recreateRelease: true
+          prerelease: true
+          tag: "nightly-26.2"
+          name: "DecorBlock 26.2 - Dev Build"
+          body: |
+            ### 🧪 Автоматический снапшот (26.2)
+            Собрано из коммита `${{ github.sha }}`.
+
+            **Изменения:**
+            > ${{ github.event.head_commit.message }}
+          artifacts: "build/libs/*.jar"
+          token: ${{ secrets.GITHUB_TOKEN }}
