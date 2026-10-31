@@ -54,6 +54,7 @@ jobs:
         with:
           allowUpdates: true
           recreateRelease: true
+          removeArtifacts: true
           prerelease: true
           commit: ${{ github.sha }}
           tag: "latest-26.3"
