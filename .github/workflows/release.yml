@@ -16,10 +16,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up JDK from Gradle config
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version-file: 'build.gradle' 
+          java-version: '17'
           distribution: 'temurin'
 
       - name: Setup Gradle
