@@ -1,7 +1,9 @@
-name: Draft & Publish Release
+name: Release & Nightly Builds (main)
 
 on:
   push:
+    branches:
+      - 'main'
     tags:
       - 'v*'
 
@@ -16,10 +18,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up JDK 17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
 
       - name: Setup Gradle
@@ -31,10 +33,29 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
 
-      - name: Create GitHub Release
+      - name: Publish Official Release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
           files: build/libs/*.jar
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish Nightly Snapshot
+        if: github.ref == 'refs/heads/main'
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          recreateRelease: true
+          prerelease: true
+          tag: "nightly-main"
+          name: "DecorBlock (main) - Dev Build"
+          body: |
+            ### 🧪 Автоматический снапшот (main)
+            Собрано из коммита `${{ github.sha }}`.
+
+            **Изменения:**
+            > ${{ github.event.head_commit.message }}
+          artifacts: "build/libs/*.jar"
+          token: ${{ secrets.GITHUB_TOKEN }}
