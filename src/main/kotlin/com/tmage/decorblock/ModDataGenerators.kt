@@ -92,6 +92,9 @@ object ModDataGenerators {
 
             // Создаем модель блока и стейт
             val blockModel = models().cubeAll(name, textureLoc)
+            if (folder == "glass") {
+                blockModel.renderType("minecraft:translucent")
+            }
             simpleBlock(block, blockModel)
 
             // Создаем модель предмета
