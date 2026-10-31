@@ -84,6 +84,9 @@ object ModDataGenerators {
             val textureLoc = ResourceLocation.fromNamespaceAndPath(DecorBlockMod.MOD_ID, "block/$folder/$name")
 
             val blockModel = models().cubeAll(name, textureLoc)
+            if (folder == "glass") {
+                blockModel.renderType("minecraft:translucent")
+            }
             simpleBlock(block, blockModel)
             simpleBlockItem(block, blockModel)
         }
